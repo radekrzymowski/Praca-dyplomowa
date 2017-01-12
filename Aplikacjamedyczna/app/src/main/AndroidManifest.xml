@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.radon.aplikacjamedyczna" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Skale.SkaleActivity"
+            android:label="@string/title_activity_skale" >
+        </activity>
+        <activity
+            android:name=".Skale.HasBledActvity"
+            android:label="@string/title_activity_has_bled_actvity" >
+        </activity>
+        <activity
+            android:name=".Skale.CHA2DS2VAScActivity"
+            android:label="@string/title_activity_cha2_ds2_vasc_" >
+        </activity>
+        <activity
+            android:name=".Skale.ChildaPughActivity"
+            android:label="@string/title_activity_childa__pugh" >
+        </activity>
+        <activity
+            android:name=".Skale.WellsActivity"
+            android:label="@string/title_activity_wells_" >
+        </activity>
+        <activity
+            android:name=".Skale.GenewskaActivity"
+            android:label="@string/title_activity_genewska" >
+        </activity>
+        <activity
+            android:name=".Algorytmy.AlgorytmyActivity"
+            android:label="@string/title_activity_algorytmy" >
+        </activity>
+        <activity
+            android:name=".Kalkulatory.KalkulatoryActivity"
+            android:label="@string/title_activity_kalkulatory" >
+        </activity>
+        <activity
+            android:name=".Kalkulatory.DopaminaActivity"
+            android:label="@string/title_activity_dopamina" >
+        </activity>
+        <activity
+            android:name=".Algorytmy.VkaActivity"
+            android:label="@string/title_activity_vka" >
+        </activity>
+        <activity
+            android:name=".Algorytmy.BradykardiaActivity"
+            android:label="@string/title_activity_bradykardia" >
+        </activity>
+        <activity
+            android:name=".Algorytmy.TachykardiaActivity"
+            android:label="@string/title_activity_tachykardia" >
+        </activity>
+        <activity
+            android:name=".Kalkulatory.BmiActivity"
+            android:label="@string/title_activity_bmi" >
+        </activity>
+        <activity
+            android:name=".Kalkulatory.NitroglicerynaActivity"
+            android:label="@string/title_activity_nitrogliceryna" >
+        </activity>
+        <activity
+            android:name=".Kalkulatory.EGFR_Cocroft_GaultActivity"
+            android:label="@string/title_activity_egfr__cocroft__gault" >
+        </activity>
+        <activity
+            android:name=".Kalkulatory.EGFRActivity"
+            android:label="@string/title_activity_egfr" >
+        </activity>
+    </application>
+
+</manifest>

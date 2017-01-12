@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.radon.aplikacjamedyczna.Kalkulatory.EgfrFragments.Cocroft_GaultFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wiek: "
+                android:id="@+id/textView_wiek"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/checkBox_race" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Stężenie kreatyniny: "
+                android:id="@+id/textView_stezenie"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/editText_wiek" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Wynik: "
+                android:id="@+id/textView_wynik"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:layout_below="@+id/button_result"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText_wiek"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:editable="true"
+                android:textSize="24dp"
+                android:layout_below="@+id/textView_wiek"
+                android:layout_alignStart="@+id/textView_stezenie" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText_stezenie"
+                android:editable="true"
+                android:textSize="22dp"
+                android:layout_below="@+id/textView_stezenie"
+                android:layout_alignStart="@+id/textView_stezenie" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="lat"
+                android:id="@+id/textView_hint_wiek"
+                android:textSize="22dp"
+                android:layout_toEndOf="@+id/editText_wiek"
+                android:textColor="#000000"
+                android:layout_alignBottom="@+id/editText_wiek" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kobieta"
+                android:id="@+id/checkBox_Female"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oblicz"
+                android:id="@+id/button_result"
+                android:layout_below="@+id/editText_stezenie"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttons_in_calculators"
+                android:onClick="setWynikMdrd"
+                android:textColor="#ffffff"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="µmol/l"
+                android:id="@+id/textView_unit_micromole"
+                android:textColor="#000000"
+                android:onClick="chooseUnit"
+                android:layout_alignBottom="@+id/editText_stezenie"
+                android:textSize="22dp"
+                android:clickable="true"
+                android:layout_alignStart="@+id/textView_hint_wiek" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="mg/dl"
+                android:id="@+id/textView_unit_miligram"
+                android:onClick="chooseUnit"
+                android:layout_alignBottom="@+id/textView2"
+                android:layout_toEndOf="@+id/textView2"
+                android:textSize="22dp"
+                android:clickable="true"
+                android:textColor="#808080"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="|"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_above="@+id/button_result"
+                android:layout_toEndOf="@+id/textView_unit_micromole" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="ml/min"
+                android:id="@+id/textView"
+                android:textColor="#000000"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/editText_wynik"
+                android:textSize="22dp" />
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText_wynik"
+                android:focusable="false"
+                android:editable="false"
+                android:textSize="22dp"
+                android:layout_below="@+id/textView_wynik"
+                android:layout_alignStart="@+id/textView_wynik" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rasa czarna"
+                android:id="@+id/checkBox_race"
+                android:layout_alignStart="@+id/textView_wiek"
+                android:checked="false"
+                android:layout_below="@+id/checkBox_Female"
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,282 @@
+<resources>
+    <string name="app_name">Aplikacja medyczna</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_skale">SkaleActivity</string>
+    <string name="title_activity_algorytmy">AlgorytmyActivity</string>
+
+
+    <string name="start_info">Jest to aplikacja wyłącznie o charakterze pomocniczo-informacyjnym. Tworca nie ponosi opowiedzialności za decyzję lekarza.</string>
+
+    <!-- Skala CHA2-DS2-VASc -->
+    <string name="title_activity_cha2_ds2_vasc_">CHA2DS2VASc_Activity</string>
+    <string name="skala_cha2_ds2_vasc_info">Służy do oceny ryzyka powikłań zakrzepowo-zatorowych u pacjentów z migotaniem przedsionków</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_1">Zastoinowa niewydolność serca lub dysfunkcja lewej komory</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_2">Nadciśnienie tętnicze</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_3">Wiek >= 75 lat</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_4">Cukrzyca</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_5">Przebyty udar mózgu lub TIA lub inny incydent zakrzepowo-zatorowy</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_6">Choroba naczyniowa</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_6_odnosnik">Przebyty zawał serca, miażdżycowa choroba tętnic obwodowych, blaszki miażdżycowe w aorcie</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_7">Wiek 65-74 lat</string>
+    <string name="skala_cha2_ds2_vasc_czynnik_8">Płeć żeńska</string>
+    <string name="skala_cha2_ds2_vasc_wynik_1">Nie stosuj leczenia przeciwkrzepliwego ani przeciwpłytkowego</string>
+    <string name="skala_cha2_ds2_vasc_wynik_2">Stosuj leczenie przeciwkrzepliwe (gdy brak przeciwwskazań). Jeśli chory odmawia przyjmowania leku przeciwkrzepliwego (VKA/dabigatran/rywaroksaban) rozważyć zastosowanie ASA 75-100 mg/d + klopidogrel 75 mg/d (ryzyko krwawienia małe) lub samego ASA 75-325 mg/d (leczenie mniej skuteczne).</string>
+
+    <!-- Skala HAS-BLED -->
+    <string name="title_activity_has_bled_actvity">HasBledActvity</string>
+    <string name="skala_has_bled_info">Ocenia ryzyko wystąpienia krwawienia u pacjenta z migotaniem przedsionków</string>
+    <string name="skala_has_bled_czynnik_1">Nadciśnienie tętnicze SBP >160 mmHg</string>
+    <string name="skala_has_bled_czynnik_2">Nieprawidłowa funkcja wątroby</string>
+    <string name="skala_has_bled_czynnik_2_odnosnik">przewlekła choroba wątroby lub cechy biochemiczne istotnego uszkodzenia wątroby np. bilirubina >2x ggn + ALT/AST/ALP >3 ggn</string>
+    <string name="skala_has_bled_czynnik_3">Nieprawidłowa funkcja nerek</string>
+    <string name="skala_has_bled_czynnik_3_odnosnik">przewlekła dializoterapia, stan po przeszczepie nerki lub stężenie kreatyniny > 200 mikromol/l</string>
+    <string name="skala_has_bled_czynnik_4">Udar mózgu</string>
+    <string name="skala_has_bled_czynnik_5">Krwawienie</string>
+    <string name="skala_has_bled_czynnik_5_odnosnik">krwawienie w wywiadzie i/lub predyspozycja do krwawień np. skaza krwotoczna, niedokrwistość</string>
+    <string name="skala_has_bled_czynnik_6">Zmienne wartości INR</string>
+    <string name="skala_has_bled_czynnik_6_odnosnik">wahające się duże wartości lub często poza przedziałem terapeutycznym</string>
+    <string name="skala_has_bled_czynnik_7">Wiek >65 lat</string>
+    <string name="skala_has_bled_czynnik_8">Leki p/płytkowowe lub NLPZ</string>
+    <string name="skala_has_bled_czynnik_9">Alkohol</string>
+    <string name="skala_has_bled_wynik_1">Małe ryzyko krwawienia.</string>
+    <string name="skala_has_bled_wynik_2">Duże ryzyko krwawienia.</string>
+
+
+    <!-- Skala Childa-Pugh -->
+    <string name="title_activity_childa__pugh">Childa_PughActivity</string>
+    <string name="skala_childa_pugh_info">Klasyfikacja niewydolności wątroby służąca do określenia rokowania i potrzeby kwalifikacji do przeszczepu wątroby</string>
+    <string name="skala_childa_pugh_czynnik_1">Encefalopatia</string>
+    <string name="skala_childa_pugh_czynnik_1_1">brak</string>
+    <string name="skala_childa_pugh_czynnik_1_2">stopień 1-2</string>
+    <string name="skala_childa_pugh_czynnik_1_3">stopień 3-4</string>
+    <string name="skala_childa_pugh_czynnik_2">Wodobrzusze</string>
+    <string name="skala_childa_pugh_czynnik_2_1">brak</string>
+    <string name="skala_childa_pugh_czynnik_2_2">umiarkowane</string>
+    <string name="skala_childa_pugh_czynnik_2_3">napięte</string>
+    <string name="skala_childa_pugh_czynnik_3">Bilirubina</string>
+    <string name="skala_childa_pugh_czynnik_3_1">&lt; 2 mg/dl  (&lt;35 mikromol/l)   / w PBC &lt;4 mg/dl (&lt;70 mikromol/l)</string>
+    <string name="skala_childa_pugh_czynnik_3_2">2-3 mg/dl (35-50 mikromol/l)   / w PBC 4-10 mg/dl (70-170 mikromol/l)</string>
+    <string name="skala_childa_pugh_czynnik_3_3">&gt;3 mg/dl (&gt;50 mikromol/l)    / w PBC &gt;10 mg/dl (&gt;170 mikromol/l)</string>
+    <string name="skala_childa_pugh_czynnik_4">Albumina</string>
+    <string name="skala_childa_pugh_czynnik_4_1">>3,5 g/dl</string>
+    <string name="skala_childa_pugh_czynnik_4_2">2,8-3,5 g/dl</string>
+    <string name="skala_childa_pugh_czynnik_4_3">&lt;2,8 g/dl</string>
+    <string name="skala_childa_pugh_czynnik_5">Czas protrombinowy</string>
+    <string name="skala_childa_pugh_czynnik_5_1">&lt;5 sek ponad normę/ INR &lt;1,70</string>
+    <string name="skala_childa_pugh_czynnik_5_2">5-10 sek ponad normę/ INR 1,70-2,20</string>
+    <string name="skala_childa_pugh_czynnik_5_3">&gt;10 sek ponad normę/ INR&gt;2,20</string>
+    <string name="skala_childa_pugh_wynik_1">Klasa A: marskość wątroby wyrównana (brak wskazań do przeszczepienia)</string>
+    <string name="skala_childa_pugh_wynik_2">Klasa B: marskość wątroby niewyrównana (wskazania do przeszczepienia)</string>
+    <string name="skala_childa_pugh_wynik_3">Klasa C: marskość wątroby niewyrównana (wskazania do przeszczepienia)</string>
+
+    <!-- Skala Wellsa -->
+    <string name="title_activity_wells_">Wells_Activity</string>
+    <string name="skala_wellsa_info">Skala Wellsa (ZŻG)  *służy do oceny prawdopodobieństwa wystąpienia zakrzepicy żył głębokich.</string>
+    <string name="skala_wellsa_czynnik_1">Nowotwór złośliwy (leczony lub rozpoznany w ciągu ostatnich 6 miesięcy).</string>
+    <string name="skala_wellsa_czynnik_2">Porażenie, niedowład, niedawne unieruchomienie kończyny dolnej w opatrunku gipsowym.</string>
+    <string name="skala_wellsa_czynnik_3">Niedawne unieruchomienie w łóżku przez> 3dni lub duża operacja w ciągu ostatnich 4 tyg.</string>
+    <string name="skala_wellsa_czynnik_4">Bolesność miejscowa w przebiegu żył głębokich kończyny dolnej.</string>
+    <string name="skala_wellsa_czynnik_5">Obrzęk całej kończyny dolnej.</string>
+    <string name="skala_wellsa_czynnik_6">Obwód goleni większy o >3cm w porównaniu z bezobjawową kończyną    *pomiar 10 cm poniżej guzowatości piszczeli.</string>
+    <string name="skala_wellsa_czynnik_7">Obrzęk ciastowaty.</string>
+    <string name="skala_wellsa_czynnik_8">Widoczne żyły powierzchowne krążenia obocznego (nieżylakowe).</string>
+    <string name="skala_wellsa_czynnik_9">Inne rozpoznanie równie lub bardziej prawdopodobne niż ZŻG.</string>
+    <string name="skala_wellsa_wynik_1">Prawdopodobieństwo kliniczne małe.</string>
+    <string name="skala_wellsa_wynik_2">Prawdopodobieństwo kliniczne pośrednie.</string>
+    <string name="skala_wellsa_wynik_3">Prawdopodobieństwo kliniczne duże.</string>
+
+    <!-- Zmodyfikowana skala genewska -->
+    <string name="title_activity_genewska">GenewskaActivity</string>
+    <string name="skala_genewska_info">Zmodyfikowana skala genewska (ZP)   *służy do oceny prawdopodobieństwa klinicznego zatorowości płucnej</string>
+    <string name="skala_genewska_czynnik_1">wiek>65 lat</string>
+    <string name="skala_genewska_czynnik_2">przebyta ZŻG lub ZP</string>
+    <string name="skala_genewska_czynnik_3">zabieg chirurgiczny lub złamanie w ciągu ostatniego miesiąca</string>
+    <string name="skala_genewska_czynnik_4">nowotwór złośliwy (niewyleczony)</string>
+    <string name="skala_genewska_czynnik_5">jednostronny ból kończyny dolnej</string>
+    <string name="skala_genewska_czynnik_6">krwioplucie</string>
+    <string name="skala_genewska_czynnik_7">HR 75-94/min</string>
+    <string name="skala_genewska_czynnik_8">HR >=95/min</string>
+    <string name="skala_genewska_czynnik_9">ból podczas ucisku żył głębokich kończyny dolnej i jednostronny obrzęk</string>
+    <string name="skala_genewska_wynik_1">Prawdopodobieństwo kliniczne małe.</string>
+    <string name="skala_genewska_wynik_2">Prawdopodobieństwo kliniczne pośrednie.</string>
+    <string name="skala_genewska_wynik_3">Prawdopodobieństwo kliniczne duże.</string>
+    <string name="title_activity_kalkulatory">KalkulatoryActivity</string>
+    <string name="title_activity_dopamina">DopaminaActivity</string>
+
+
+    <!-- Klakulator dopamina -->
+    <string name="kalkulator_dopamina_title">Dopamina</string>
+    <string name="kalkulator_dopamina_info"></string>
+
+<!-- TODO: Remove or change this placeholder text -->
+
+
+
+    <!-- Przedawkowanie VKA -->
+    <string name="title_activity_vka">Algorytm postępowania w przedawkowaniu VKA</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="algorytmVKA_step2_1_1">1. Wstrzymaj leczenie VKA. </string>
+    <string name="algorytmVKA_step2_1_2">2. Podaj 5-10 mg witaminy K w powolnym wlewie dożylnym.</string>
+    <string name="algorytmVKA_step2_1_3">3. Koncentrat czynników protrombiny lub świeżo mrożone osocze.</string>
+    <string name="algorytmVKA_step2_1_4">4. Rekombinowany czynnik VIIa (gdy niedostępne inne środki).</string>
+    <string name="algorytmVKA_step2_2_1">1. Wstrzymaj leczenie VKA do czasu uzyskania INR 2,0-3,0.</string>
+    <string name="algorytmVKA_step2_2_2">2. Nie podawaj witaminy K.</string>
+    <string name="algorytmVKA_step2_3_1">1. Wstrzymaj leczenie VKA. </string>
+    <string name="algorytmVKA_step2_3_2">2. Podaj 5-10 mg witaminy K w powolnym wlewie dożylnym.</string>
+    <string name="algorytmVKA_step2_3_3">3. Koncentrat czynników protrombiny lub świeżo mrożone osocze.</string>
+    <string name="algorytmVKA_step2_3_4">4. Rekombinowany czynnik VIIa (gdy niedostępne inne środki).</string>
+    <string name="algorytmVKA_step2_4_1">1. Wstrzymaj leczenie VKA do czasu uzyskania INR 2,0-3,0.</string>
+    <string name="algorytmVKA_step2_4_2">2. Podaj p.o. 2 mg witaminy K (większe dawki spowodują        oporność na VKA na ok. 7 dni)</string>
+    <string name="algorytmVKA_step2_5_1">1. Wstrzymaj leczenie VKA. </string>
+    <string name="algorytmVKA_step2_5_2">2. Podaj 5-10 mg witaminy K w powolnym wlewie dożylnym. </string>
+    <string name="algorytmVKA_step2_5_3">3. Koncentrat czynników protrombiny lub świeżo mrożone osocze. </string>
+    <string name="algorytmVKA_step2_5_4">4. Rekombinowany czynnik VIIa (gdy niedostępne inne środki).</string>
+    <string name="algorytmVKA_step2_6_1">1. Wstrzymaj leczenie VKA.</string>
+    <string name="algorytmVKA_step2_6_2">2. Podaj p.o. 2,5- 5mg witaminy K (większe dawki spowodują oporność na VKA na ok. 7 dni).</string>
+    <string name="title_activity_zatrzymanie_krazenia_algorytm">Zatrzymanie_krazenia_algorytm
+    </string>
+
+
+
+    <!-- Bradykardia -->
+    <string name="title_activity_bradykardia">Algorytm postępowania w bradykardii</string>
+    <string name="algorytmBradykardia_1_1">
+        - Oceń stosując schemat ABCDE\n
+        - Podaj tlen, zapewnij dostęp dożylny\n
+        - Monitoruj EKG, ciśnienie krwi, SpO<sub>2</sub>, wykonaj 12-odprowadzeniowe EKG \n
+        - Rozpoznaj i lecz odwracalne przyczyny (np. zaburzenia elektrolitowe)
+    </string>
+    <string name="algorytmBradykardia_2_1">
+        Oceń czy występują objawy niepokojące:\n
+        1. Wstrząs\n
+        2. Omdlenie\n
+        3. Niedokrwienie mięśnia sercowego\n
+        4. Niewydolność serca
+    </string>
+    <string name="algorytmBradykardia_3_1">Atropina 500 µg iv\nPozytywna odpowiedź?</string>
+    <string name="algorytmBradykardia_3_2">
+        Ryzyko asystolii?\n
+        - Ostatnio przebyty epizod asystolii\n
+        - Blok AV Mobitz II\n
+        - Całkowity blok serca z szerokimi zespołami QRS\n
+        - Pauzy komorowe > 3 sek.
+    </string>
+    <string name="algorytmBradykardia_4_1">
+        W międzyczasie:\n
+        - Atropina 500 µg iv powtarzaj do max dawki 3 mg\n
+        - Izoprenalina 5 µg/min\n
+        - Adrenalina 2-10 µg/min\n
+        - Alternatywne leki*\n
+        LUB\n
+        - Stymulacja przezskórna\n
+    </string>
+    <string name="algorytmBradykardia_4_2">Obserwuj</string>
+    <string name="algorytmBradykardia_5_1">
+        Poproś o pomoc specjalistę\n
+        Podejmij działania w celu założenia
+        stymulacji wewnętrznej
+    </string>
+    <string name="algorytmBradykardia_add">
+        * Alternatywne leki:\n
+        - Aminofilina\n
+        - Dopamina\n
+        - Glukagon (przy przedawkowaniu β-blokerów lub blokerów kanałów wapniowych)\n
+        - Glycopyrolate można stosować zamiast atropiny\n
+    </string>
+
+
+
+    <!-- Tachykardia -->
+    <string name="title_activity_tachykardia">Algorytm postępowania w tachykardii</string>
+    <string name="algorytmTachykardia_1_1">
+        - Oceń stosując schemat ABCDE\n
+        - Podaj tlen, zapewnij dostęp dożylny\n
+        - Monitoruj EKG, ciśnienie krwi, SpO<sub>2</sub>, wykonaj 12-odprowadzeniowe EKG \n
+        - Rozpoznaj i lecz odwracalne przyczyny (np. zaburzenia elektrolitowe)
+    </string>
+    <string name="algorytmTachykardia_2_1">
+        Kardiowersja* (do 3 prób)\n
+        - Amiodaron 300 mg iv w ciągu 10-20 min i kolejna kardiowersja;\n następnie:\n
+        - Amiodaron 900 mg w ciągu 24 h
+    </string>
+    <string name="algorytmTachykardia_2_2">
+        Oceń czy występują objawy niepokojące: \n
+        1. Wstrząs\n
+        2. Omdlenie\n
+        3. Niedokrwienie mięśnia sercowego\n
+        4. Niewydolność serca
+    </string>
+    <string name="algorytmTachykardia_2_3">
+        <b>Czy zespoły QRS są wąskie (&lt;0,12 sek)?</b>
+    </string>
+    <string name="algorytmTachykardia_3_1">
+        <b>Czy zespoły QRS są miarowe?</b>
+    </string>
+    <string name="algorytmTachykardia_3_2">
+        <b>Czy rytm jest miarowy?</b>
+    </string>
+    <string name="algorytmTachykardia_4_1">
+        Poproś o pomoc specjalistę\n
+        Możliwe przyczyny:\n
+        - AF z blokiem odnogi lecz jak częstoskurcz z wąskimi QRS\n
+        - AF w zespole preekscytacji rozważ Amiodaron\n
+        - Polimorficzny VT (np. Torsades de pointes - podaj Magnez 2 g w ciągu 10 min)\n
+    </string>
+    <string name="algorytmTachykardia_4_2">
+        Jeżeli częstoskurcz komorowy (lub nie masz pewności):\n
+        - Amiodaron 300 mg iv w ciągu 20-60 min, następnie 900 mg w ciągu 24 h\n\n
+        Jeśli wcześniej stwierdzono SVT z blokiem odnogi:
+        - Podaj Adenozynę jak dla miarowych częstoskurczów z wąskimi QRS
+    </string>
+    <string name="algorytmTachykardia_4_3">
+        - Zastosuj stymulację nerwu błędnego\n
+        - Adenozyna 6 mg iv, szybki bolus; jeżeli nieskuteczna podaj 12 mg; jeżeli nieskuteczna podaj kolejne 12 mg.\n
+        - Stale monitoruj rytm sreca\n\n
+        Przywrócono rytm zatokowy?
+    </string>
+    <string name="algorytmTachykardia_4_4">
+        <b>Niemiarowy częstoskurcz wąskimi QRS</b>\n
+        Prawdopodobnie migotanie przedsionków\n
+        Kontroluj rytm komór:\n
+        - ß-bloker lub Diltiazem\n
+        - Rozważ Digoxynę lub Amiodaron przy objawach niewydolności serca\n
+        Włącz leki p/zakrzepowe gdy >48 h
+    </string>
+    <string name="algorytmTachykardia_5_1"></string>
+    <string name="algorytmTachykardia_6_1">
+        Prawdopodobnie PSVT w mechanizmie re-entry:\n
+        - Wykonaj 12-odprowadzeniowe EKG przy rytmie zatokowym\n
+        - Jeśli nawraca podaj ponownie Adenozynę i rozważ profilaktyczne leczenie antyarytmiczne
+    </string>
+    <string name="algorytmTachykardia_6_2">
+        <b>Poproś o pomoc specjalistę</b>\n
+        Prawdopodobnie trzepotanie przedsionków\n
+        - Kontroluj rytm serca (np.β-bloker)
+    </string>
+    <string name="algorytmTachykardia_7_1"></string>
+    
+    
+    
+    <!-- kalkulator BMI -->
+    <string name="title_activity_bmi">BmiActivity</string>
+    <string name="bmi_stopien1">&lt; 16,0 – wygłodzenie</string>
+    <string name="bmi_stopien2">16,0–16,99 – wychudzenie</string>
+    <string name="bmi_stopien3">17,0–18,49 – niedowaga</string>
+    <string name="bmi_stopien4">18,5–24,99 – wartość prawidłowa</string>
+    <string name="bmi_stopien5">25,0–29,99 – nadwaga</string>
+    <string name="bmi_stopien6">30,0–34,99 – I stopień otyłości</string>
+    <string name="bmi_stopien7">35,0–39,99 – II stopień otyłości (otyłość kliniczna)</string>
+    <string name="bmi_stopien8">≥ 40,0 – III stopień otyłości (otyłość skrajna)</string>
+    <string name="title_activity_nitrogliceryna">NitroglicerynaActivity</string>
+    <string name="title_activity_egfr__cocroft__gault">EGFR_Cocroft_GaultActivity</string>
+    <string name="title_activity_egfr">EGFRActivity</string>
+
+
+
+
+
+
+</resources>

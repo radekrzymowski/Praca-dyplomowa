@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="OwnTitileBar" parent="android:Theme">
+        <item name="android:actionBarSize">30dp</item>
+    </style>
+
+    <color name="algorytmy_color">#4CAF50</color>
+    <color name="white_color">#ffffff</color>
+    <color name="skale_color">#2196F3</color>
+    <color name="kalkulatory_color">#F44336</color>
+    <color name="black_color">#000000</color>
+
+</resources>

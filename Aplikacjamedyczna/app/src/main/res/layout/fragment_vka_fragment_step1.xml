@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.radon.aplikacjamedyczna.Algorytmy.VkaFragments.VkaFragmentStep1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INR 4,5 - 6,0"
+        android:id="@+id/Vka_step1_checkbox_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:textSize="20dp"
+        android:onClick="VkaStep1CheckBoxClick"
+        android:layout_margin="10dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INR 6,0 - 10,0"
+        android:id="@+id/Vka_step1_checkbox_2"
+        android:checked="false"
+        android:layout_below="@+id/Vka_step1_checkbox_1"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:onClick="VkaStep1CheckBoxClick"
+        android:layout_margin="10dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INR > 10"
+        android:id="@+id/Vka_step1_checkbox_3"
+        android:layout_below="@+id/Vka_step1_checkbox_2"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:textSize="20dp"
+        android:onClick="VkaStep1CheckBoxClick"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Krwawienie"
+        android:id="@+id/button_yes"
+        android:layout_below="@+id/Vka_step1_checkbox_3"
+        android:layout_alignParentStart="true"
+        android:onClick="buttonYes"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttons_in_algorithms"
+        android:textColor="@color/white_color"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bez krwawienia"
+        android:id="@+id/button_no"
+        android:onClick="buttonNo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/button_yes"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/buttons_in_algorithms"
+        android:textColor="@color/white_color"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+</RelativeLayout>
